@@ -13,7 +13,7 @@ namespace BudgetApp
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
-            builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddSingleton<BudgetService>();
 
             var app = builder.Build();
 
